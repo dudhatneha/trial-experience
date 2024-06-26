@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content=" activity.">
+	<meta name="author" content="Ansonika">
+	<title>Trial experience.</title>
+
+	<!-- Favicons-->
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+	<!-- GOOGLE WEB FONT -->
+	<link rel="preconnect" href="https://fonts.gstatic.com/">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&amp;display=swap"
+		rel="stylesheet">
+
+	<!-- BASE CSS -->
+	<!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
+	">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/vendors.css" rel="stylesheet">
+
+	<!-- SPECIFIC CSS -->
+	<link href="css/vegas.css" rel="stylesheet">
+
+	<!-- YOUR CUSTOM CSS -->
+	<link href="css/custom.css" rel="stylesheet">
+
+	<!-- ALTERNATIVE COLORS CSS -->
+	<link href="#" id="colors" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+	<div id="page" class="theia-exception">
+
+		<header class="header menu_fixed">
+			<!-- /Page Preload -->
+			<!-- <div id="preloader"><div data-loader="circle-side"></div></div> -->
+			<div id="logo">
+				<a href="index.html">
+					<img src="img/logo.png" alt="" class="logo_normal">
+					<img src="img/logo.png" alt="" class="logo_sticky">
+				</a>
+			</div>
+			<ul id="top_menu">
+				<!-- <li><a href="" class="partner" ><i class="fa-regular fa-handshake"></i>
+				</a></li> -->
+
+				<li><div class="m-search-box">
+					<input type="text" class="search-input" placeholder="Search..">
+					<button class="search-button">
+						<i class="fas fa-search"></i>
+					</button></li>
+				<li><a href="#sign-in-dialog" id="sign-in" class="login" title="Sign In">Sign In</a></li>
+				<li><a href="wishlist.html" class="wishlist_bt_top" title="Your wishlist">Your wishlist</a></li>
+			</ul>
+
+			<div class="search-popup">
+				<span class="search-back-drop"></span>
+				<button class="close-search"><span class="fa fa-close"></span></button>
+
+				<div class="search-inner">
+					<form method="post" action="https://kodesolution.com/html/2023/crotive-html/index.html">
+						<div class="form-group">
+							<input type="search" name="search-field" value="" placeholder="Search..." required="">
+							<button type="submit"><i class="icon fa fa-search"></i></button>
+						</div>
+					</form>
+				</div>
+			</div>
+			<!-- /top_menu -->
+			<a href="#menu" class="btn_mobile">
+				<div class="hamburger hamburger--spin" id="hamburger">
+					<div class="hamburger-box">
+						<div class="hamburger-inner"></div>
+					</div>
+				</div>
+			</a>
+			<nav id="menu" class="main-menu">
+				<ul>
+					<!-- <li><span><a href="#0">Home</a></span></li> -->
+					<li><span><a href="about.html">About us</a></span></li>
+					<li><span><a href="become-partner.html">Become a Partner</a></span></li>
+					<!-- <li><span><a href="adventure.html">Adventure</a></span></li> -->
+					<li><span><a href="contacts.html">contact</a></span></li>
+				</ul>
+			</nav>
+		</header>
+		<!-- /header -->
+
+		<main class="res-activity">
+			<div class="form-area">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-10">
+
+
+
+							<div class="form-body">
+								<div class="multitab-form-area">
+									<div class="tab-links-area">
+										<h1>Create your Avtivites page</h1>
+										<hr>
+										<ul>
+											<!-- <li><a data-toggle="formtab" href="#userProfile" class="active">
+												1.Activities Information</a></li> -->
+											<li>
+												<a data-toggle="formtab" href="#userProfile">
+												<div class="res-count"><span>1</span> </div>
+												<div>	<strong> Activities
+													Address</strong>
+													<p>Activities name, address, contact no., owner details</p>
+												</div>
+											</a>
+											
+											</li>
+											<li>
+												<a  data-toggle="formtab" href="#activite-address">
+												<div class="res-count"><span>2</span></div>
+												<div>
+												
+												<strong>Activities Type & Timings</strong>
+												<p>Establishment & cuisine type, opening hours</p>
+											</div>
+											</a> 
+											</li>
+											
+											<!-- <li><a data-toggle="formtab" href="#bankInfo">Bank Information & Others</a>
+											</li> -->
+											<li>
+												<a data-toggle="formtab" href="#uploadDocuments">
+												<div class="res-count"><span>2</span></div>
+												<div>
+												<strong>Upload Images</strong>
+												<p>Menu, Activities, food images</p>
+											</div>
+											</a>
+											</li>
+										</ul>
+									</div>
+									<div class="tab-form-area">
+										<div class="tabs-panels active" id="userProfile">
+											<div class="tab-part">
+												<h4>Activities Information</h4>
+												<hr>
+												<h5>Activities details</h5>
+												<p>Name, address and location</p>
+												<div class="devider-row">
+													<div class="">
+														<div class="form-field">
+															<label>Activities Name</label>
+															<input type="text" placeholder="Activities Name">
+														</div>
+														<div class="form-field">
+															<label>Activities Address</label>
+															<input type="text" placeholder="Activities Address">
+														</div>
+														<div>
+															<h5>Please place the pin accurately at your outlet’s location on the map
+															</h5>
+															<p>This will help your customers and Trial riders to locate your store
+															</p>
+															<div>
+																<div class="row g-0 custom-search-input-2 mb-3">
+																	<div class="col-md-10">
+																		<div class="form-group">
+																			<input class="form-control" type="text" placeholder="Search by city, park, or trail name">
+																			<i class="icon_pin_alt"></i>
+																		</div>
+																	</div>
+																	<div class="col-md-2">
+																		<input type="submit" class="btn_search" value="Search">
+																	</div>
+																</div>
+																<div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.4856623109663!2d72.88694027597307!3d21.212581681438234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04f7a31c50185%3A0x87232d67295bc2a3!2sSavlia%20Cir%2C%20Sanman%20Society%2C%20Vrundavan%20Society%2C%20Yoginagar%20Society%2C%20Surat%2C%20Gujarat%20395010!5e0!3m2!1sen!2sin!4v1717830865846!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+															</div>
+															<div class="row justify-content-center">
+																<div class="col-lg-12">
+																	<div class="form-field">
+																		<label>Moblie number Activities </label>
+																		<input type="text" placeholder="Enter Your Number">
+																	</div>
+																	</div>
+																	<div class="col-lg-12">
+																	<div class="form-field">
+																		<label>or want to share landline number</label>
+																		<input type="text" placeholder="Enter Your Number with STD code">
+																	</div>
+																	</div>
+																</div>
+														</div>
+														
+													</div>
+												</div>
+											</div>
+											<div class="next-btn">
+												<a data-toggle="formtab" href="#residentailAddress">Next</a>
+											</div>
+										</div>
+										<div class="tabs-panels" id="activite-address">
+											<div class="tab-part">
+												<h4>Contact number at Activities </h4>
+												<p>Your customers will call on this number for general enquiries</p>
+												<hr>
+												<div class="row justify-content-center">
+													<div class="col-lg-12">
+														<div class="form-field">
+															<label>Moblie number Activities </label>
+															<input type="text" placeholder="Enter Your Number">
+														</div>
+														</div>
+														<div class="col-lg-12">
+														<div class="form-field">
+															<label>or want to share landline number</label>
+															<input type="text" placeholder="Enter Your Number with STD code">
+														</div>
+														
+													</div>
+													<!-- <div class="half-2">
+														<div class="form-field">
+															<label>State</label>
+															<input type="text" placeholder="Delhi">
+														</div>
+														<div class="form-field">
+															<label>Zip Code</label>
+															<input type="text" placeholder="201003">
+														</div>
+														<div class="form-field">
+															<label>Occupation</label>
+															<input type="text" placeholder="Developer">
+														</div>
+													</div> -->
+												</div>
+												<!-- <div class="devider-row">
+													<div class="full">
+														<div class="form-field">
+															<label>Describe Yourself</label>
+															<textarea placeholder="About Your Self"></textarea>
+														</div>
+													</div>
+												</div> -->
+											</div>
+											<div class="next-btn">
+												<a data-toggle="formtab" href="#jobDescription">Next</a>
+											</div>
+										</div>
+										<div class="tabs-panels" id="jobDescription">
+											<div class="tab-part">
+												<h4>Activities owner details</h4>
+												<p>These will be used to share revenue related communications</p>
+												<hr>
+												<div class="devider-row">
+													<div class="half-2">
+														<div class="form-field">
+															<label>Select One</label>
+															<div class="checkbox">
+																<input type="checkbox" id="checkbox1" name="checkbox">
+																<label for="checkbox1">Checkbox</label>
+															</div>
+															<div class="checkbox">
+																<input type="checkbox" id="checkbox2" name="checkbox">
+																<label for="checkbox2">Checkbox</label>
+															</div>
+														</div>
+														<div class="form-field">
+															<label>Email ID</label>
+															<div class="radio">
+																<input type="radio" id="radio1" name="radio">
+																<label for="radio1">radio</label>
+															</div>
+															<div class="radio">
+																<input type="radio" id="radio2" name="radio">
+																<label for="radio2">radio</label>
+															</div>
+														</div>
+														<div class="form-field">
+															<label>Specialization</label>
+															<input type="text">
+														</div>
+													</div>
+													<div class="half-2">
+														<div class="form-field">
+															<label>Education Level</label>
+															<select>
+																<option selected disabled>Select Education</option>
+																<option></option>
+															</select>
+														</div>
+														<div class="form-field">
+															<label>Phone Number</label>
+															<input type="text" placeholder="+91 123-456-789">
+														</div>
+														<div class="form-field">
+															<label>Date of Birth</label>
+															<div class="devider-row">
+																<div class="half-3">
+																	<div class="form-field">
+																		<select>
+																			<option value="29">29</option>
+																		</select>
+																	</div>
+																</div>
+																<div class="half-3">
+																	<div class="form-field">
+																		<select>
+																			<option value="may">May</option>
+																		</select>
+																	</div>
+																</div>
+																<div class="half-3">
+																	<div class="form-field">
+																		<select>
+																			<option value="1992">1992</option>
+																		</select>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="next-btn">
+												<a data-toggle="formtab" href="#bankInfo">Next</a>
+											</div>
+										</div>
+										<div class="tabs-panels" id="bankInfo">
+											<div class="tab-part">
+												<h4>Bank Information & Others</h4>
+												<hr>
+												<div class="devider-row">
+													<div class="half-2">
+														<div class="form-field">
+															<label>Full Name</label>
+															<input type="text" placeholder="Jhone Doe">
+														</div>
+														<div class="form-field">
+															<label>Email ID</label>
+															<input type="text" placeholder="example@domain.com">
+														</div>
+														<div class="form-field">
+															<label>Specialization</label>
+															<input type="text">
+														</div>
+													</div>
+													<div class="half-2">
+														<div class="form-field">
+															<label>Education Level</label>
+															<select>
+																<option selected disabled>Select Education</option>
+																<option></option>
+															</select>
+														</div>
+														<div class="form-field">
+															<label>Phone Number</label>
+															<input type="text" placeholder="+91 123-456-789">
+														</div>
+														<div class="form-field">
+															<label>Date of Birth</label>
+															<div class="devider-row">
+																<div class="half-3">
+																	<div class="form-field">
+																		<select>
+																			<option value="29">29</option>
+																		</select>
+																	</div>
+																</div>
+																<div class="half-3">
+																	<div class="form-field">
+																		<select>
+																			<option value="may">May</option>
+																		</select>
+																	</div>
+																</div>
+																<div class="half-3">
+																	<div class="form-field">
+																		<select>
+																			<option value="1992">1992</option>
+																		</select>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="next-btn">
+												<a data-toggle="formtab" href="#uploadDocuments">Next</a>
+											</div>
+										</div>
+										<div class="tabs-panels" id="uploadDocuments">
+											<div class="tab-part">
+												<h4>Upload Documents</h4>
+												<hr>
+												<div class="devider-row">
+													<div class="half-2">
+														<div class="form-field">
+															<label>Full Name</label>
+															<input type="text" placeholder="Jhone Doe">
+														</div>
+														<div class="form-field">
+															<label>Email ID</label>
+															<input type="text" placeholder="example@domain.com">
+														</div>
+														<div class="form-field">
+															<label>Specialization</label>
+															<input type="text">
+														</div>
+													</div>
+													<div class="half-2">
+														<div class="form-field">
+															<label>Education Level</label>
+															<select>
+																<option selected disabled>Select Education</option>
+																<option></option>
+															</select>
+														</div>
+														<div class="form-field">
+															<label>Phone Number</label>
+															<input type="text" placeholder="+91 123-456-789">
+														</div>
+														<div class="form-field">
+															<label>Date of Birth</label>
+															<div class="devider-row">
+																<div class="half-3">
+																	<div class="form-field">
+																		<select>
+																			<option value="29">29</option>
+																		</select>
+																	</div>
+																</div>
+																<div class="half-3">
+																	<div class="form-field">
+																		<select>
+																			<option value="may">May</option>
+																		</select>
+																	</div>
+																</div>
+																<div class="half-3">
+																	<div class="form-field">
+																		<select>
+																			<option value="1992">1992</option>
+																		</select>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="next-btn">
+												<button type="submit">Submit</button>
+											</div>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<!--/main-->
+
+		<footer>
+			<div class="container margin_60_35">
+				<div class="row">
+					<div class="col-lg-5 col-md-12 pe-5">
+						<p><img src="img/f-logo.png" alt=""></p>
+						<p>Mea nibh meis philosophia eu. Duis legimus efficiantur ea sea. Id placerat tacimates
+							definitionem sea, prima quidam vim no. Duo nobis persecuti cu. Nihil facilisi indoctum an
+							vix, ut delectus expetendis vis.</p>
+						<div class="follow_us">
+							<ul>
+								<li>Follow us</li>
+								<li><a href="#0"><i class="bi bi-facebook"></i></a></li>
+								<li><a href="#0"><i class="bi bi-twitter-x"></i></a></li>
+								<li><a href="#0"><i class="bi bi-instagram"></i></a></li>
+								<li><a href="#0"><i class="bi bi-tiktok"></i></a></li>
+								<li><a href="#0"><i class="bi bi-whatsapp"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 ms-lg-auto">
+						<h5>Useful links</h5>
+						<ul class="links">
+							<li><a href="about.html">About</a></li>
+							<li><a href="login.html">Login</a></li>
+							<li><a href="register.html">Register</a></li>
+							
+							<li><a href="contacts.html">Contacts</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<h5>Contact with Us</h5>
+						<ul class="contacts">
+							<li><a href="tel://61280932400"><i class="ti-mobile"></i> +91 8733910811</a></li>
+							<li><a href="mailto:info@trialexperince.com"><i class="ti-email"></i>
+									info@trialexperince.com</a></li>
+						</ul>
+						<div id="newsletter">
+							<h6>Newsletter</h6>
+							<div id="message-newsletter"></div>
+							<form method="post"
+								action="https://www.ansonika.com/Neha dudhat/phpmailer/newsletter_template_email.php"
+								name="newsletter_form" id="newsletter_form">
+								<div class="form-group">
+									<input type="email" name="email_newsletter" id="email_newsletter"
+										class="form-control" placeholder="Your email">
+									<input type="submit" value="Submit" id="submit-newsletter">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<!--/row-->
+				<hr>
+				<div class="row">
+					<div class="col-lg-6">
+						<ul id="footer-selector">
+							<li>
+								<div class="styled-select" id="lang-selector">
+									<select>
+										<option value="English" selected>English</option>
+										<option value="French">French</option>
+										<option value="Spanish">Spanish</option>
+										<option value="Russian">Russian</option>
+									</select>
+								</div>
+							</li>
+							<li>
+								<div class="styled-select" id="currency-selector">
+									<select>
+										<option value="US Dollars" selected>US Dollars</option>
+										<option value="Euro">Euro</option>
+									</select>
+								</div>
+							</li>
+							<li><img src="img/cards_all.svg" alt=""></li>
+						</ul>
+					</div>
+					<div class="col-lg-6">
+						<ul id="additional_links">
+							<li><a href="#0">Terms and conditions</a></li>
+							<li><a href="#0">Privacy</a></li>
+							<li><span>© Neha dudhat</span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--/footer-->
+	</div>
+	<!-- page -->
+
+	<!-- Sign In Popup -->
+	<div id="sign-in-dialog" class="zoom-anim-dialog mfp-hide">
+		<div class="small-dialog-header">
+			<h3>Sign In</h3>
+		</div>
+		<form>
+			<div class="sign-in-wrapper">
+				<a href="#0" class="social_bt facebook">Login with Facebook</a>
+				<a href="#0" class="social_bt google">Login with Google</a>
+				<div class="divider"><span>Or</span></div>
+				<div class="form-group">
+					<label>Email</label>
+					<input type="email" class="form-control" name="email" id="email">
+					<i class="icon_mail_alt"></i>
+				</div>
+				<div class="form-group">
+					<label>Password</label>
+					<input type="password" class="form-control" name="password" id="password" value="">
+					<i class="icon_lock_alt"></i>
+				</div>
+				<div class="clearfix add_bottom_15">
+					<div class="checkboxes float-start">
+						<label class="container_check">Remember me
+							<input type="checkbox">
+							<span class="checkmark"></span>
+						</label>
+					</div>
+					<div class="float-end mt-1"><a id="forgot" href="javascript:void(0);">Forgot Password?</a></div>
+				</div>
+				<div class="text-center"><input type="submit" value="Log In" class="btn_1 full-width"></div>
+				<div class="text-center">
+					Don’t have an account? <a href="register.html">Sign up</a>
+				</div>
+				<div id="forgot_pw">
+					<div class="form-group">
+						<label>Please confirm login email below</label>
+						<input type="email" class="form-control" name="email_forgot" id="email_forgot">
+						<i class="icon_mail_alt"></i>
+					</div>
+					<p>You will receive an email containing a link allowing you to reset your password to a new
+						preferred one.</p>
+					<div class="text-center"><input type="submit" value="Reset Password" class="btn_1"></div>
+				</div>
+			</div>
+		</form>
+		<!--form -->
+	</div>
+	<!-- /Sign In Popup -->
+
+	<div id="toTop"></div><!-- Back to top button -->
+
+	<!-- COMMON SCRIPTS -->
+	<script src="js/common_scripts.js"></script>
+	<script src="js/main.js"></script>
+	<script src="phpmailer/validate.js"></script>
+
+	<!-- COLOR SWITCHER  -->
+	<script src="js/switcher.js"></script>
+
+</body>
+
+
+</html>
